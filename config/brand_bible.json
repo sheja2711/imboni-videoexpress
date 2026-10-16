@@ -1,0 +1,19 @@
+{
+  "entity": "Imboni Prime Innovations Ltd",
+  "brand_colors": {
+    "obsidian": "#0A0A1A",
+    "electric_cyan": "#00E5FF",
+    "heritage_gold": "#FFD700"
+  },
+  "default_character": {
+    "name": "Kigali Executive",
+    "prompt_tokens": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry",
+    "voice_profile": "CloneVoice_Rwandan_Male_01"
+  },
+  "video_specs": {
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "target_fps": 30,
+    "max_dialogue_chars": 90
+  }
+}

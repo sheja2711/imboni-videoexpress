@@ -1,24 +1,21 @@
+#!/usr/bin/env python3
 import requests
-import sys
-import json
 import time
 
-MISSION_CONTROL_URL = "http://127.0.0.1:4000/api/tasks/complete"
+MISSION_CONTROL_URL = "http://127.0.0.1:4000/api/heartbeat"
 
-def notify_mission_control(video_title, duration, export_url):
+def report_status(task="Video Production Ready"):
     payload = {
-        "task_name": f"Video Production: {video_title}",
-        "agent": "Hermes VideoExpress Agent",
-        "duration": duration,
-        "export_url": export_url,
-        "status": "SHIPPED",
+        "agent": "VideoExpress Studio Agent",
+        "task": task,
+        "status": "ONLINE",
         "timestamp": time.time()
     }
     try:
-        res = requests.post(MISSION_CONTROL_URL, json=payload, timeout=5)
-        print(f"✓ Dispatched to Imboni Mission Control: HTTP {res.status_code}")
+        res = requests.post(MISSION_CONTROL_URL, json=payload, timeout=2)
+        print(f"✓ Mission Control notified: HTTP {res.status_code}")
     except Exception as e:
-        print(f"⚠ Mission Control dispatch offline: {e}")
+        print(f"⚠ Mission Control ping failed: {e}")
 
 if __name__ == "__main__":
-    notify_mission_control("BlockMaster Factory Demo", "60s", "https://storage.imbonigroup.com/exports/demo.mp4")
+    report_status()

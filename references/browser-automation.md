@@ -1,10 +1,9 @@
-# Verified DOM Selectors & UI Interactions
+# DOM Selectors & UI Guidelines[cite: 60]
 
-- Gallery Toggle: `input[type="checkbox"][name="public_gallery"]` -> Must be set to FALSE.
-- Create Button: `button[data-testid="create-video-btn"]`
-- Actor Script Modal: `div[role="dialog"] textarea[name="actor_dialog"]`
-- Voice Selector: `select[name="voice_profile"]` -> Select matched CloneVoice profile.
-- Timeline Track 0: `#editor-timeline-track-video`
-- Timeline Track 1: `#editor-timeline-track-audio`
-- Export Button: `button#btn-export-1080p`
-- Polling Interval: Check render state every 20-30s. Never refresh the browser window during render.
+- Gallery Toggle: `input[name="public_gallery"]` -> Force FALSE[cite: 60].
+- Create Asset: `button[data-testid="create-video-btn"]`[cite: 60].
+- Actor Script: `textarea[name="actor_dialog"]`[cite: 60].
+- Voice Dropdown: `select[name="voice_profile"]`[cite: 60].
+- Timeline Tracks: `#editor-timeline-track-video`, `#editor-timeline-track-audio`[cite: 60].
+- Export Button: `button#btn-export-1080p`[cite: 60].
+- Polling Interval: Poll render queue every 25s; avoid browser refreshes[cite: 60].
