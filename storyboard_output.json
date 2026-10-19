@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "scene": "Opening Hook",
+    "visual": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry, looking directly into camera with confident posture. Background: Kigali skyline at golden hour with subtle bokeh, cinematic lighting, 85mm portrait lens.",
+    "dialogue": "Rwanda's infrastructure is moving fast. We need industrial precision.",
+    "duration": "7.5s"
+  },
+  {
+    "id": 2,
+    "scene": "The Solution",
+    "visual": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry, holding a sleek industrial tablet showing a glowing cyan ERP dashboard, background subtly showing clean factory floor.",
+    "dialogue": "Meet BlockMaster OS v7.0: our vertical concrete manufacturing ERP.",
+    "duration": "7.5s"
+  },
+  {
+    "id": 3,
+    "scene": "The 3-Machine Fleet",
+    "visual": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry, gesturing towards three identical modern hydraulic block-making machines labeled Unit 01, 02, and 03.",
+    "dialogue": "We operate three high-yield hydraulic block and paver machines daily.",
+    "duration": "7.5s"
+  },
+  {
+    "id": 4,
+    "scene": "Product Catalog",
+    "visual": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry, standing near high-density Gatafari interlocking pavers and heavy-duty foundation blocks, cinematic sharp focus.",
+    "dialogue": "From commercial Gatafari pavers to heavy-duty road foundation blocks.",
+    "duration": "7.5s"
+  },
+  {
+    "id": 5,
+    "scene": "Sovereign Compliance",
+    "visual": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry, closeup of tablet screen displaying golden RRA EBM Shield badge and verified QR code transaction.",
+    "dialogue": "Every coin is accounted for with instant RRA EBM QR compliance.",
+    "duration": "7.5s"
+  },
+  {
+    "id": 6,
+    "scene": "BOM & Scheduling",
+    "visual": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry, walking through active construction site, confident expression, sharp tailored suit.",
+    "dialogue": "Real-time FIFO raw material tracking keeps our projects on schedule.",
+    "duration": "7.5s"
+  },
+  {
+    "id": 7,
+    "scene": "Contractor Value",
+    "visual": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry, gesturing directly to camera, electric cyan and gold accent lighting framing the subject.",
+    "dialogue": "Contractors and builders can rent machines or order pavers directly.",
+    "duration": "7.5s"
+  },
+  {
+    "id": 8,
+    "scene": "Call to Action",
+    "visual": "30-year-old Rwandan executive, tailored obsidian suit, gold lapel pin, neat buzz cut, warm lighting, cinematic 8k, photorealistic facial geometry, professional closing pose, background showing the Imboni Gorilla logo and contact banner.",
+    "dialogue": "Visit imbonigroup.rw or launch BlockMaster ERP on your mobile phone.",
+    "duration": "7.5s"
+  }
+]
